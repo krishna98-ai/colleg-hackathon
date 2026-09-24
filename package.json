@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Our group project",
+  "homepage": "https://github.com/krishna98-ai/colleg-hackathon#readme",
+  "bugs": {
+    "url": "https://github.com/krishna98-ai/colleg-hackathon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishna98-ai/colleg-hackathon.git"
+  },
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
