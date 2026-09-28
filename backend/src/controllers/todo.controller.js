@@ -27,6 +27,8 @@ export const updateTodo = async (req, res) => {
   try {
     const { id } = req.params;
     const { task } = req.body;
+    console.log("hitted");
+    
 
     if (!task || task.trim() === "") {
       return res.status(400).json({
